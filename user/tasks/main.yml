@@ -1,0 +1,5 @@
+---
+# tasks file for user
+
+- name: Zainicujuj usera
+  ansible.builtin.include_tasks: user.yml

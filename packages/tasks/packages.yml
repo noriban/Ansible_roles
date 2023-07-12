@@ -1,0 +1,8 @@
+---
+- name: Instalacja packages
+  package:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - unzip
+    - net-tools
