@@ -1,0 +1,6 @@
+---
+# defaults file for infrastructure
+
+deployment_path: "~/Infrastructure"
+git_repository: "https://github.com/noriban/panda_infrastructure.git"
+git_branch: "main"
