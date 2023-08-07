@@ -4,3 +4,5 @@
   roles:
     - packages
     - user
+    - sonarqube
+    - infrastructure
