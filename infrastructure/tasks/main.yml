@@ -18,3 +18,10 @@
     project_src: "{{ deployment_path }}"
     build: true
     debug: true
+
+- name: Run a chmod command
+  community.docker.docker_container_exec:
+    container: jenkins_agent_1
+    command: /bin/bash -c "chmod 666 /var/run/docker.sock"
+    chdir: /root
+  register: result
