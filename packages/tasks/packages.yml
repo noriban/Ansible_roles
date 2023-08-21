@@ -6,3 +6,4 @@
   loop:
     - unzip
     - net-tools
+    # - zsh
